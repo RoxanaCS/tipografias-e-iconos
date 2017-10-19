@@ -41,11 +41,11 @@ a{
   text-decoration: none;
   display: block;
 }
-a:hover{
+a:hover{                   /*para cambiar las propiedades cuando el cursor esté sobre ese elemento*/
   background: white;
   width: 198px;
   height: 295px;
-  transform:scale(1.1);
+  transform:scale(1.1);   /*encontré este comando para hacerle zoom al cuadrito*/
 }
 a:hover h3, a:hover h4, a:hover p{
   color: #397CBC;
