@@ -1,0 +1,56 @@
+.menu{
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  overflow: auto;
+}
+
+.avion, .ruby, .corazon, .cafe, .comida{
+  background: #DEDEDE;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+  border: 4px outset;
+}
+
+h3{
+  font-family: 'Fascinate Inline', cursive;
+  color: #3E3E3E;
+  font-size: 18px;
+}
+
+h4{
+  font-family: 'Muli', sans-serif;
+  color: #3E3E3E;
+  font-size: 12px;
+}
+
+p{
+  font-family: 'Inconsolata', monospace;
+  color: #3E3E3E;
+}
+
+.fa-paper-plane-o, .fa-diamond, .fa-heart-o, .fa-beer, .fa-cutlery{
+  color: #3E3E3E;
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+}
+a:hover{
+  background: white;
+  width: 198px;
+  height: 295px;
+  transform:scale(1.1);
+}
+a:hover h3, a:hover h4, a:hover p{
+  color: #397CBC;
+}
+
+a:hover .fa-paper-plane-o, a:hover .fa-diamond, a:hover .fa-heart-o, a:hover .fa-beer, a:hover .fa-cutlery{
+  color: #397CBC;
+}
